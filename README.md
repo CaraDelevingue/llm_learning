@@ -1,4 +1,4 @@
-模型：bert-base-uncased{'config.json',
+模型：Chinese-Roberta-wwm-ext{'config.json',
                         'pytorch_model.bin',
                         'vocab.txt',
                         'tokenizer.json',
@@ -13,4 +13,4 @@ anaconda环境：{d2l(version:0.17.6）
               pandas
               }
 
-d2l文件夹存放动手学深度学习中第10章注意力机制的示例代码
+d2l文件夹存放动手学深度学习中第10章注意力机制的示例代码、第14章预训练Bert代码和第15章微调Bert代码。
