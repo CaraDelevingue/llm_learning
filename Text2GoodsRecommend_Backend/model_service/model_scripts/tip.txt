@@ -1,0 +1,12 @@
+此文件夹下的文件分别实现了
+1.表的创建和初始化                                        ：init_db.py
+2.数据的导入（从data/raw/**.csv中）                       :import_data.py
+3.对目标数据（review_content）的清洗                      :process_review_content.py
+4.将数据分配给训练集表、验证集表、测试集表                  :split_dataset.py
+5.将数据库中三个数据集的表导出至data/processed/**.csv中）  :export_data.py
+6.加工csv中各个数据集的数据以适配模型的输入                 :process_data.py
+7.对本地下载的bert模型在目标数据集下进行微调                :finetune.py
+
+
+与模型相关的部署、微调，数据的存放，数据集文件等不应该放在后端项目中，这里为了偷懒将模型相关放在项目中
+将数据从数据库中导出是为了在云平台中租用高性能显卡运行微调结果

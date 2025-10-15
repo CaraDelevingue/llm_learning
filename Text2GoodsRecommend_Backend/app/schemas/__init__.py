@@ -1,1 +1,1 @@
-from .user import UserData,RequestContent
+from .MessageModel import UserData,RequestContent,ResponseContent

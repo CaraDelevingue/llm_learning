@@ -1,0 +1,1 @@
+from .table_model import Raw,Processed,Content,MetaData
