@@ -14,7 +14,7 @@ async def receive_message(content_data:RequestContent):
     # 处理逻辑...
     response_data = {
         "status": "success",
-        "message": result,
+        "content": result,
         "date": content_data.date
     }
     

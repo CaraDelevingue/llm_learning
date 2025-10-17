@@ -130,9 +130,9 @@ class SummarizationService:
             # 添加明确的指令提示词
             if original_length < 100:
                 # 短文本使用更强的指令
-                prompt = f"请用一句话简要总结: {original_text}"
+                prompt = f"请用一句话简要总结: {original_text},不要署名"
             else:
-                prompt = f"请总结以下内容: {original_text}"
+                prompt = f"请总结以下内容: {original_text},不要署名"
                 
                 
             # 文本编码

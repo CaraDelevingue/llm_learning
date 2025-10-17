@@ -15,7 +15,7 @@ class RequestContent(BaseModel):
 '''响应模型'''    
 class ResponseContent(BaseModel):
     status:str="failure"
-    message:str
+    content:str
     date:datetime
     
 
